@@ -1,0 +1,60 @@
+#root {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.activity-wrapper {
+    background: #8080801c;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.process-wrapper {
+    background: #8080801c;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.process_1 {
+  flex: 0 0 10%;
+}
+
+.process_2 {
+  flex: 0 0 88%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    flex: 1 0 23%;
+    height: 200px;
+    background: purple;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
